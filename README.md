@@ -23,5 +23,5 @@ Do tests for small numbers
 http://jsperf.com/puzzle-simple-test
 
 # Conclusion 
-Solution 2 is much faster. The recursive solution has to compute every solution log2(x) times. Whereas in solution 2 the computation takes place only once (albeit a power and a log computation which can be fairly expensive).
+Solution 2 is much faster. The recursive solution has to compute every solution log2(x) times. Whereas in solution 2, with the equation, the computation takes place only once (albeit a power and a log computation which can be fairly expensive).
 It's easy to see, but the test also confirms it. It's only faster for x < 100 or x < 1000.
